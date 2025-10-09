@@ -1,28 +1,110 @@
-# AngularBuzzfeed
+# 🐝 Angular Buzz Feed Game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+Este projeto faz parte do desafio do curso Angular Developer da [DIO](https://www.dio.me/) onde recriamos um jogo no estilo BuzzFeed — perguntas, escolhas, pontuação e interatividade com interface moderna, para praticar bindings, roteamento, manipulação de estado e testes.
 
-## Development server
+![Home](https://raw.githubusercontent.com/pedrossjr/angular-buzz-feed/main/public/page.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🛠 Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular CLI** (versão 20.3.4)
+- **TypeScript**
+- **HTML5 / CSS3**
+- **RxJS**
+- **Node.js & npm**
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📁 Estrutura do Projeto (resumo)
 
-## Running unit tests
+```
+/
+├── src/
+│   ├── app/              # componentes, serviços, módulos
+│   ├── assets/           # imagens, estilos, recursos
+│   └── environments/     # configurações de ambiente
+├── .vscode/
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## ▶️ Como Executar
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 1. Clonar o repositório
 
-## Further help
+```bash
+git clone https://github.com/pedrossjr/angular-buzz-feed.git
+cd angular-buzz-feed
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# angular-buzz-feed
+### 2. Instalar dependências
+
+```bash
+npm install
+```
+
+### 3. Rodar o servidor de desenvolvimento
+
+```bash
+ng serve
+```
+
+Acesse a aplicação em: **http://localhost:4200/**  
+O app recarrega automaticamente ao modificar o código.
+
+### 4. Build para produção
+
+```bash
+ng build
+```
+
+Os arquivos resultantes ficam em: `dist/`
+
+---
+
+## ✅ Testes
+
+- **Testes unitários**
+
+  ```bash
+  ng test
+  ```
+
+- **Testes end-to-end**
+  ```bash
+  ng e2e
+  ```
+
+---
+
+## 🎯 Funcionalidades
+
+- Quiz interativo com perguntas e múltiplas escolhas
+- Registro de pontuação
+- Roteamento entre telas (início, perguntas, resultado)
+- Layout responsivo
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas!
+
+1. Faça um **fork**
+2. Crie uma branch: `git checkout -b feature/nome-feature`
+3. Faça commit das alterações: `git commit -m "Descrição da feature"`
+4. Envie para o repositório remoto: `git push origin feature/nome-feature`
+5. Abra um **Pull Request**
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Pedro S. Jr**  
+🔗 [GitHub](https://github.com/pedrossjr)  
+🔗 [Linkedin](https://www.linkedin.com/in/pedrosouzasjr)
