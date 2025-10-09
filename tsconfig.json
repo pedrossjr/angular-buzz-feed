@@ -4,8 +4,6 @@
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,

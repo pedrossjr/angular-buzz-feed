@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
     selector: 'app-quizz',
@@ -22,10 +23,12 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false;
 
-  constructor() {}
+  quizzQuestions: any;
 
   ngOnInit(): void {
 
+
+    
 
     /*
     this.questionIndex = 0;
