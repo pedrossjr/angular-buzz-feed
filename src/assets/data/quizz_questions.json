@@ -1,55 +1,581 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Mostre neste quizz que você conhece Angular",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual comando cria um novo projeto Angular?",
+      "options": [
+        { "id": 1, "name": "ng start app", "alias": "E" },
+        { "id": 2, "name": "ng init project", "alias": "E" },
+        { "id": 3, "name": "ng new nome-do-projeto", "alias": "C" },
+        { "id": 4, "name": "npm create angular", "alias": "E" },
+        { "id": 5, "name": "angular-cli new", "alias": "E" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual diretiva é usada para renderizar elementos condicionalmente no Angular?",
+      "options": [
+        { "id": 1, "name": "*ngFor", "alias": "E" },
+        { "id": 2, "name": "*ngIf", "alias": "C" },
+        { "id": 3, "name": "*ngSwitch", "alias": "E" },
+        { "id": 4, "name": "ngShow", "alias": "E" },
+        { "id": 5, "name": "ngHide", "alias": "E" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Qual decorador é usado para definir um componente Angular?",
+      "options": [
+        { "id": 1, "name": "@Injectable", "alias": "E" },
+        { "id": 2, "name": "@Directive", "alias": "E" },
+        { "id": 3, "name": "@NgModule", "alias": "E" },
+        { "id": 4, "name": "@Component", "alias": "C" },
+        { "id": 5, "name": "@Pipe", "alias": "E" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Em um projeto Angular 18+, qual o bundler padrão utilizado pelo CLI?",
+      "options": [
+        { "id": 1, "name": "Webpack", "alias": "E" },
+        { "id": 2, "name": "Rollup", "alias": "E" },
+        { "id": 3, "name": "Parcel", "alias": "E" },
+        { "id": 4, "name": "Vite", "alias": "C" },
+        { "id": 5, "name": "Snowpack", "alias": "E" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual comando serve a aplicação Angular localmente?",
+      "options": [
+        { "id": 1, "name": "ng serve", "alias": "C" },
+        { "id": 2, "name": "npm start", "alias": "E" },
+        { "id": 3, "name": "ng run", "alias": "E" },
+        { "id": 4, "name": "ng build", "alias": "E" },
+        { "id": 5, "name": "angular serve", "alias": "E" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual módulo contém diretivas como *ngIf e *ngFor?",
+      "options": [
+        { "id": 1, "name": "FormsModule", "alias": "E" },
+        { "id": 2, "name": "RouterModule", "alias": "E" },
+        { "id": 3, "name": "CommonModule", "alias": "C" },
+        { "id": 4, "name": "BrowserModule", "alias": "E" },
+        { "id": 5, "name": "CoreModule", "alias": "E" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual serviço é usado para realizar requisições HTTP no Angular?",
+      "options": [
+        { "id": 1, "name": "HttpClient", "alias": "C" },
+        { "id": 2, "name": "HttpService", "alias": "E" },
+        { "id": 3, "name": "FetchService", "alias": "E" },
+        { "id": 4, "name": "HttpModule", "alias": "E" },
+        { "id": 5, "name": "NetworkClient", "alias": "E" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Qual comando adiciona uma nova biblioteca externa ao projeto Angular?",
+      "options": [
+        { "id": 1, "name": "npm add <lib>", "alias": "E" },
+        { "id": 2, "name": "ng add <lib>", "alias": "C" },
+        { "id": 3, "name": "ng install <lib>", "alias": "E" },
+        { "id": 4, "name": "angular add <lib>", "alias": "E" },
+        { "id": 5, "name": "npm install <lib>", "alias": "E" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "O que significa 'two-way data binding' em Angular?",
+      "options": [
+        { "id": 1, "name": "Comunicação entre componentes pai e filho", "alias": "E" },
+        { "id": 2, "name": "Sincronização automática entre modelo e visualização", "alias": "C" },
+        { "id": 3, "name": "Atualização manual de dados pelo usuário", "alias": "E" },
+        { "id": 4, "name": "Uso do ngFor em listas", "alias": "E" },
+        { "id": 5, "name": "Renderização condicional de dados", "alias": "E" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Qual símbolo é usado para indicar property binding no Angular?",
+      "options": [
+        { "id": 1, "name": "()", "alias": "E" },
+        { "id": 2, "name": "{}", "alias": "E" },
+        { "id": 3, "name": "[]", "alias": "C" },
+        { "id": 4, "name": "<>", "alias": "E" },
+        { "id": 5, "name": "##", "alias": "E" }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Qual comando é usado para gerar um novo componente?",
+      "options": [
+        { "id": 1, "name": "ng generate component nome", "alias": "C" },
+        { "id": 2, "name": "ng make component nome", "alias": "E" },
+        { "id": 3, "name": "ng create component nome", "alias": "E" },
+        { "id": 4, "name": "npm generate component nome", "alias": "E" },
+        { "id": 5, "name": "angular generate nome", "alias": "E" }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Qual pipe é usado para transformar texto em letras maiúsculas?",
+      "options": [
+        { "id": 1, "name": "lowercase", "alias": "E" },
+        { "id": 2, "name": "uppercase", "alias": "C" },
+        { "id": 3, "name": "titlecase", "alias": "E" },
+        { "id": 4, "name": "capitalize", "alias": "E" },
+        { "id": 5, "name": "textcase", "alias": "E" }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Qual é o objetivo principal do arquivo angular.json?",
+      "options": [
+        { "id": 1, "name": "Definir as rotas da aplicação", "alias": "E" },
+        { "id": 2, "name": "Configurar o sistema de autenticação", "alias": "E" },
+        { "id": 3, "name": "Gerenciar dependências NPM", "alias": "E" },
+        { "id": 4, "name": "Configurar a build, serve e estrutura do projeto", "alias": "C" },
+        { "id": 5, "name": "Armazenar variáveis de ambiente", "alias": "E" }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Qual módulo é necessário para trabalhar com formulários baseados em template?",
+      "options": [
+        { "id": 1, "name": "ReactiveFormsModule", "alias": "E" },
+        { "id": 2, "name": "FormsModule", "alias": "C" },
+        { "id": 3, "name": "CommonModule", "alias": "E" },
+        { "id": 4, "name": "TemplateModule", "alias": "E" },
+        { "id": 5, "name": "FormGroupModule", "alias": "E" }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Qual é a principal função do RouterModule?",
+      "options": [
+        { "id": 1, "name": "Gerenciar dependências", "alias": "E" },
+        { "id": 2, "name": "Gerar componentes dinamicamente", "alias": "E" },
+        { "id": 3, "name": "Gerenciar navegação e rotas da aplicação", "alias": "C" },
+        { "id": 4, "name": "Controlar eventos do DOM", "alias": "E" },
+        { "id": 5, "name": "Registrar serviços globais", "alias": "E" }
+      ]
+    },
+     {
+      "id": 16,
+      "question": "Qual comando cria um novo componente Angular?",
+      "options": [
+        {"id": 1, "name": "ng generate directive", "alias": "E"},
+        {"id": 2, "name": "ng generate component", "alias": "C"},
+        {"id": 3, "name": "ng new component", "alias": "E"},
+        {"id": 4, "name": "ng create component", "alias": "E"},
+        {"id": 5, "name": "ng make component", "alias": "E"}
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Qual módulo precisa ser importado para usar *ngFor e *ngIf?",
+      "options": [
+        {"id": 1, "name": "BrowserModule", "alias": "E"},
+        {"id": 2, "name": "FormsModule", "alias": "E"},
+        {"id": 3, "name": "RouterModule", "alias": "E"},
+        {"id": 4, "name": "CommonModule", "alias": "C"},
+        {"id": 5, "name": "HttpClientModule", "alias": "E"}
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Qual decorador é usado para definir um componente Angular?",
+      "options": [
+        {"id": 1, "name": "@NgModule", "alias": "E"},
+        {"id": 2, "name": "@Injectable", "alias": "E"},
+        {"id": 3, "name": "@Component", "alias": "C"},
+        {"id": 4, "name": "@Directive", "alias": "E"},
+        {"id": 5, "name": "@Pipe", "alias": "E"}
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Em qual arquivo definimos as rotas da aplicação Angular?",
+      "options": [
+        {"id": 1, "name": "app.routes.ts", "alias": "C"},
+        {"id": 2, "name": "main.ts", "alias": "E"},
+        {"id": 3, "name": "angular.json", "alias": "E"},
+        {"id": 4, "name": "package.json", "alias": "E"},
+        {"id": 5, "name": "tsconfig.app.json", "alias": "E"}
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Qual diretiva é usada para renderizar elementos condicionalmente?",
+      "options": [
+        {"id": 1, "name": "*ngFor", "alias": "E"},
+        {"id": 2, "name": "*ngIf", "alias": "C"},
+        {"id": 3, "name": "[ngClass]", "alias": "E"},
+        {"id": 4, "name": "*ngSwitch", "alias": "E"},
+        {"id": 5, "name": "[hidden]", "alias": "E"}
+      ]
+    },
+    {
+      "id": 21,
+      "question": "O que faz o serviço HttpClient no Angular?",
+      "options": [
+        {"id": 1, "name": "Gerencia rotas", "alias": "E"},
+        {"id": 2, "name": "Lida com formulários", "alias": "E"},
+        {"id": 3, "name": "Executa chamadas HTTP", "alias": "C"},
+        {"id": 4, "name": "Gerencia estado global", "alias": "E"},
+        {"id": 5, "name": "Renderiza templates", "alias": "E"}
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Qual comando serve a aplicação Angular localmente?",
+      "options": [
+        {"id": 1, "name": "ng serve", "alias": "C"},
+        {"id": 2, "name": "ng start", "alias": "E"},
+        {"id": 3, "name": "ng run", "alias": "E"},
+        {"id": 4, "name": "npm run", "alias": "E"},
+        {"id": 5, "name": "ng dev", "alias": "E"}
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Qual ciclo de vida do componente é chamado uma vez após a criação do componente?",
+      "options": [
+        {"id": 1, "name": "ngOnInit", "alias": "C"},
+        {"id": 2, "name": "ngOnChanges", "alias": "E"},
+        {"id": 3, "name": "ngDoCheck", "alias": "E"},
+        {"id": 4, "name": "ngAfterViewInit", "alias": "E"},
+        {"id": 5, "name": "ngOnDestroy", "alias": "E"}
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Qual diretiva é usada para iterar sobre listas no template?",
+      "options": [
+        {"id": 1, "name": "*ngFor", "alias": "C"},
+        {"id": 2, "name": "*ngIf", "alias": "E"},
+        {"id": 3, "name": "*ngSwitch", "alias": "E"},
+        {"id": 4, "name": "[ngClass]", "alias": "E"},
+        {"id": 5, "name": "[hidden]", "alias": "E"}
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Qual arquivo é o ponto de entrada principal da aplicação Angular?",
+      "options": [
+        {"id": 1, "name": "app.component.ts", "alias": "E"},
+        {"id": 2, "name": "main.ts", "alias": "C"},
+        {"id": 3, "name": "index.html", "alias": "E"},
+        {"id": 4, "name": "angular.json", "alias": "E"},
+        {"id": 5, "name": "app.module.ts", "alias": "E"}
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Qual comando adiciona uma biblioteca externa ao projeto Angular?",
+      "options": [
+        {"id": 1, "name": "ng install", "alias": "E"},
+        {"id": 2, "name": "npm install", "alias": "C"},
+        {"id": 3, "name": "ng add lib", "alias": "E"},
+        {"id": 4, "name": "ng include", "alias": "E"},
+        {"id": 5, "name": "npm start", "alias": "E"}
+      ]
+    },
+    {
+      "id": 27,
+      "question": "O que o comando ng build faz?",
+      "options": [
+        {"id": 1, "name": "Cria um novo projeto", "alias": "E"},
+        {"id": 2, "name": "Executa os testes unitários", "alias": "E"},
+        {"id": 3, "name": "Compila a aplicação para produção", "alias": "C"},
+        {"id": 4, "name": "Inicia o servidor local", "alias": "E"},
+        {"id": 5, "name": "Instala dependências", "alias": "E"}
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Qual diretiva aplica uma classe CSS condicionalmente?",
+      "options": [
+        {"id": 1, "name": "[ngStyle]", "alias": "E"},
+        {"id": 2, "name": "[ngClass]", "alias": "C"},
+        {"id": 3, "name": "*ngIf", "alias": "E"},
+        {"id": 4, "name": "*ngFor", "alias": "E"},
+        {"id": 5, "name": "*ngSwitch", "alias": "E"}
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Qual pipe transforma texto em maiúsculas?",
+      "options": [
+        {"id": 1, "name": "lowercase", "alias": "E"},
+        {"id": 2, "name": "titlecase", "alias": "E"},
+        {"id": 3, "name": "uppercase", "alias": "C"},
+        {"id": 4, "name": "capitalize", "alias": "E"},
+        {"id": 5, "name": "textcase", "alias": "E"}
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Qual comando adiciona o roteamento ao criar um novo projeto Angular?",
+      "options": [
+        {"id": 1, "name": "ng new app --with-routing", "alias": "E"},
+        {"id": 2, "name": "ng new app --routing", "alias": "C"},
+        {"id": 3, "name": "ng new app routing", "alias": "E"},
+        {"id": 4, "name": "ng add routing", "alias": "E"},
+        {"id": 5, "name": "ng router add", "alias": "E"}
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Qual hook de ciclo de vida é chamado antes da destruição do componente?",
+      "options": [
+        {"id": 1, "name": "ngOnInit", "alias": "E"},
+        {"id": 2, "name": "ngOnDestroy", "alias": "C"},
+        {"id": 3, "name": "ngAfterViewInit", "alias": "E"},
+        {"id": 4, "name": "ngAfterContentInit", "alias": "E"},
+        {"id": 5, "name": "ngDoCheck", "alias": "E"}
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Qual decorador é usado para injetar dependências em um serviço?",
+      "options": [
+        {"id": 1, "name": "@Injectable", "alias": "C"},
+        {"id": 2, "name": "@Service", "alias": "E"},
+        {"id": 3, "name": "@Component", "alias": "E"},
+        {"id": 4, "name": "@NgModule", "alias": "E"},
+        {"id": 5, "name": "@Inject", "alias": "E"}
+      ]
+    },
+    {
+      "id": 33,
+      "question": "O que significa o conceito de Data Binding no Angular?",
+      "options": [
+        {"id": 1, "name": "Sincronização entre DOM e modelo de dados", "alias": "C"},
+        {"id": 2, "name": "Estilização automática de elementos", "alias": "E"},
+        {"id": 3, "name": "Criação de componentes", "alias": "E"},
+        {"id": 4, "name": "Roteamento de páginas", "alias": "E"},
+        {"id": 5, "name": "Gerenciamento de dependências", "alias": "E"}
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Qual comando gera um novo serviço Angular?",
+      "options": [
+        {"id": 1, "name": "ng new service", "alias": "E"},
+        {"id": 2, "name": "ng generate service", "alias": "C"},
+        {"id": 3, "name": "ng make service", "alias": "E"},
+        {"id": 4, "name": "ng create service", "alias": "E"},
+        {"id": 5, "name": "ng add service", "alias": "E"}
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Qual arquivo define as dependências do projeto Angular?",
+      "options": [
+        {"id": 1, "name": "angular.json", "alias": "E"},
+        {"id": 2, "name": "package.json", "alias": "C"},
+        {"id": 3, "name": "tsconfig.json", "alias": "E"},
+        {"id": 4, "name": "main.ts", "alias": "E"},
+        {"id": 5, "name": "polyfills.ts", "alias": "E"}
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Qual comando executa os testes unitários no Angular?",
+      "options": [
+        {"id": 1, "name": "ng serve test", "alias": "E"},
+        {"id": 2, "name": "ng test", "alias": "C"},
+        {"id": 3, "name": "npm test angular", "alias": "E"},
+        {"id": 4, "name": "ng unit", "alias": "E"},
+        {"id": 5, "name": "ng run test", "alias": "E"}
+      ]
+    },
+    {
+      "id": 37,
+      "question": "O que é o Angular CLI?",
+      "options": [
+        {"id": 1, "name": "Uma biblioteca CSS", "alias": "E"},
+        {"id": 2, "name": "Uma ferramenta de linha de comando para Angular", "alias": "C"},
+        {"id": 3, "name": "Um módulo do Angular Core", "alias": "E"},
+        {"id": 4, "name": "Um compilador de TypeScript", "alias": "E"},
+        {"id": 5, "name": "Um gerenciador de pacotes", "alias": "E"}
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Qual comando cria um novo módulo Angular?",
+      "options": [
+        {"id": 1, "name": "ng new module", "alias": "E"},
+        {"id": 2, "name": "ng generate module", "alias": "C"},
+        {"id": 3, "name": "ng create module", "alias": "E"},
+        {"id": 4, "name": "ng add module", "alias": "E"},
+        {"id": 5, "name": "npm create module", "alias": "E"}
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Qual é a função principal do arquivo angular.json?",
+      "options": [
+        {"id": 1, "name": "Gerenciar dependências do Node.js", "alias": "E"},
+        {"id": 2, "name": "Definir configurações do projeto Angular", "alias": "C"},
+        {"id": 3, "name": "Controlar os estilos globais", "alias": "E"},
+        {"id": 4, "name": "Configurar as rotas", "alias": "E"},
+        {"id": 5, "name": "Definir variáveis de ambiente", "alias": "E"}
+      ]
+    },
+    {
+      "id": 40,
+      "question": "O que o decorador @Input faz em um componente?",
+      "options": [
+        {"id": 1, "name": "Define uma saída de evento", "alias": "E"},
+        {"id": 2, "name": "Permite receber dados de um componente pai", "alias": "C"},
+        {"id": 3, "name": "Inicializa o ciclo de vida do componente", "alias": "E"},
+        {"id": 4, "name": "Define um serviço", "alias": "E"},
+        {"id": 5, "name": "Cria uma rota dinâmica", "alias": "E"}
+      ]
+    },
+    {
+      "id": 41,
+      "question": "O que faz o decorador @Output em Angular?",
+      "options": [
+        {"id": 1, "name": "Recebe dados de um componente pai", "alias": "E"},
+        {"id": 2, "name": "Emite eventos para o componente pai", "alias": "C"},
+        {"id": 3, "name": "Define propriedades internas", "alias": "E"},
+        {"id": 4, "name": "Aplica estilos dinâmicos", "alias": "E"},
+        {"id": 5, "name": "Cria um pipe personalizado", "alias": "E"}
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Qual hook é chamado após o conteúdo projetado ser inicializado?",
+      "options": [
+        {"id": 1, "name": "ngOnInit", "alias": "E"},
+        {"id": 2, "name": "ngAfterContentInit", "alias": "C"},
+        {"id": 3, "name": "ngAfterViewInit", "alias": "E"},
+        {"id": 4, "name": "ngDoCheck", "alias": "E"},
+        {"id": 5, "name": "ngOnDestroy", "alias": "E"}
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Qual comando adiciona o Angular Material ao projeto?",
+      "options": [
+        {"id": 1, "name": "ng install @angular/material", "alias": "E"},
+        {"id": 2, "name": "ng add @angular/material", "alias": "C"},
+        {"id": 3, "name": "npm add material", "alias": "E"},
+        {"id": 4, "name": "ng generate material", "alias": "E"},
+        {"id": 5, "name": "ng import material", "alias": "E"}
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Qual comando é usado para verificar a versão instalada do Angular CLI?",
+      "options": [
+        {"id": 1, "name": "ng info", "alias": "E"},
+        {"id": 2, "name": "ng version", "alias": "C"},
+        {"id": 3, "name": "npm version angular", "alias": "E"},
+        {"id": 4, "name": "ng check", "alias": "E"},
+        {"id": 5, "name": "ng cli version", "alias": "E"}
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Qual comando remove um componente Angular?",
+      "options": [
+        {"id": 1, "name": "ng delete component", "alias": "E"},
+        {"id": 2, "name": "ng destroy component", "alias": "E"},
+        {"id": 3, "name": "remover manualmente o arquivo", "alias": "C"},
+        {"id": 4, "name": "ng remove component", "alias": "E"},
+        {"id": 5, "name": "ng uninstall component", "alias": "E"}
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Qual arquivo define o componente raiz da aplicação?",
+      "options": [
+        {"id": 1, "name": "main.ts", "alias": "E"},
+        {"id": 2, "name": "app.component.ts", "alias": "C"},
+        {"id": 3, "name": "index.html", "alias": "E"},
+        {"id": 4, "name": "polyfills.ts", "alias": "E"},
+        {"id": 5, "name": "app.routes.ts", "alias": "E"}
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Qual comando serve para atualizar o Angular CLI globalmente?",
+      "options": [
+        {"id": 1, "name": "npm update -g @angular/cli", "alias": "C"},
+        {"id": 2, "name": "ng upgrade", "alias": "E"},
+        {"id": 3, "name": "npm install @angular/cli", "alias": "E"},
+        {"id": 4, "name": "ng update", "alias": "E"},
+        {"id": 5, "name": "ng refresh", "alias": "E"}
+      ]
+    },
+    {
+      "id": 48,
+      "question": "O que o arquivo tsconfig.json controla?",
+      "options": [
+        {"id": 1, "name": "As dependências do Angular", "alias": "E"},
+        {"id": 2, "name": "As configurações do compilador TypeScript", "alias": "C"},
+        {"id": 3, "name": "O roteamento da aplicação", "alias": "E"},
+        {"id": 4, "name": "As variáveis de ambiente", "alias": "E"},
+        {"id": 5, "name": "As permissões do servidor", "alias": "E"}
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Como o Angular detecta mudanças no estado dos componentes?",
+      "options": [
+        {"id": 1, "name": "Através do Change Detection", "alias": "C"},
+        {"id": 2, "name": "Usando EventEmitter", "alias": "E"},
+        {"id": 3, "name": "Via Two-way Binding", "alias": "E"},
+        {"id": 4, "name": "Usando Observables", "alias": "E"},
+        {"id": 5, "name": "Através do Router Outlet", "alias": "E"}
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Qual comando é usado para criar um novo projeto Angular?",
+      "options": [
+        {"id": 1, "name": "ng new nome-projeto", "alias": "C"},
+        {"id": 2, "name": "ng generate nome-projeto", "alias": "E"},
+        {"id": 3, "name": "ng create nome-projeto", "alias": "E"},
+        {"id": 4, "name": "npm new nome-projeto", "alias": "E"},
+        {"id": 5, "name": "ng app nome-projeto", "alias": "E"}
+      ]
+    },
+    {
+      "id": 51,
+      "question": "O que o comando ng lint faz?",
+      "options": [
+        {"id": 1, "name": "Executa o servidor local", "alias": "E"},
+        {"id": 2, "name": "Verifica o código para boas práticas e erros de estilo", "alias": "C"},
+        {"id": 3, "name": "Executa os testes unitários", "alias": "E"},
+        {"id": 4, "name": "Compila o projeto para produção", "alias": "E"},
+        {"id": 5, "name": "Atualiza o Angular CLI", "alias": "E"}
+      ]
+    },
+    {
+      "id": 52,
+      "question": "Qual é o propósito do RouterModule.forRoot()?",
+      "options": [
+        {"id": 1, "name": "Registrar as rotas principais da aplicação", "alias": "C"},
+        {"id": 2, "name": "Configurar os módulos secundários", "alias": "E"},
+        {"id": 3, "name": "Gerar o arquivo de rotas", "alias": "E"},
+        {"id": 4, "name": "Habilitar lazy loading", "alias": "E"},
+        {"id": 5, "name": "Sincronizar o DOM com o Router", "alias": "E"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "C": "Você domina Angular muito bem! Parabéns! 😃",
+    "E": "Você ainda não domina Angular mas, pode melhorar. Tente novamente! ☹️"
   }
 }
