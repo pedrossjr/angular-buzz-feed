@@ -1,4 +1,4 @@
-# 🐝 Angular Buzz Feed Game
+# 🐝 Angular Buzz Feed
 
 Este projeto faz parte do desafio do curso Angular Developer da [DIO](https://www.dio.me/) onde recriamos um jogo no estilo BuzzFeed — perguntas, escolhas, pontuação e interatividade com interface moderna, para praticar bindings, roteamento, manipulação de estado e testes.
 
